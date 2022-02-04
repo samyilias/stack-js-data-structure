@@ -1,0 +1,15 @@
+{
+  "name": "stack-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^4.0.1"
+  }
+}
