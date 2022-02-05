@@ -1,4 +1,4 @@
-class stack {
+class Stack {
   constructor() {
     this.top = -1;
     this.data = {};
@@ -24,5 +24,5 @@ class stack {
   }
 }
 
-export default stack;
+export default Stack;
 

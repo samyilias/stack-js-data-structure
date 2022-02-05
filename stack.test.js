@@ -1,8 +1,8 @@
 import test from "ava";
-import stack from "./index.js";
+import Stack from "./index.js";
 
 test("push method should add items to the stack", (t) => {
-  const data = new stack();
+  const data = new Stack();
 
   data.push("hello");
   data.push("world");
@@ -11,7 +11,7 @@ test("push method should add items to the stack", (t) => {
 });
 
 test("pop method should delete items from the stack", (t) => {
-  const data = new stack();
+  const data = new Stack();
   data.push("hello");
   data.push("world");
   data.pop();
@@ -29,7 +29,7 @@ test("pop method should delete items from the stack", (t) => {
 });
 
 test('Peek method should return the last item added to the stacj',(t)=>{
-    const data = new stack();
+    const data = new Stack();
     data.push('hello');
     data.push('world');
     data.push('beautiful');
