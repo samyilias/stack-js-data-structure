@@ -1,13 +1,13 @@
 {
   "name": "stack-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Javascript stack data structure implementation",
   "main": "index.js",
   "scripts": {
     "test": "ava"
   },
   "type": "module",
-  "author": "",
+  "author": "Ilias Aboueker",
   "license": "ISC",
   "devDependencies": {
     "ava": "^4.0.1"
